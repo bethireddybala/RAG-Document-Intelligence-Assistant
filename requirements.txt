@@ -1,0 +1,23 @@
+# RAG Document Intelligence Assistant — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# ── Web framework ──────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── PDF text extraction ────────────────────────────────────────────────────
+PyPDF2>=3.0.1
+
+# ── Embeddings (local, no API key required) ────────────────────────────────
+sentence-transformers>=2.7.0
+
+# ── Vector store ──────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0
+
+# ── LLM (Google Gemini) ───────────────────────────────────────────────────
+google-generativeai>=0.7.0
+
+# ── Numerical computing (required by sentence-transformers & faiss) ────────
+numpy>=1.26.0
+
+# ── Data display ──────────────────────────────────────────────────────────
+pandas>=2.2.0
